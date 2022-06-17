@@ -9,7 +9,6 @@ export async function get(): Promise<{ body: any }> {
     instructions: item.strInstructions,
     name: item.strDrink,
     thumb: item.strDrinkThumb,
-    ...item
   }))[0];
 
   return {
